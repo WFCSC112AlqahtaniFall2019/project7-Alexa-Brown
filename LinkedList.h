@@ -28,7 +28,7 @@ Node::Node(Data& d, Node *n) {
 
 class LinkedList {
 protected:
-    Node head;
+    Node* head;
 public:
     LinkedList();
     LinkedList(const LinkedList& list);

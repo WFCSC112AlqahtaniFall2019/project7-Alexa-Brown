@@ -10,8 +10,8 @@ Stack::Stack(){
 }
 
 void Stack:: push_back(Data obj){
-    Node newNode (obj, nullptr);
-    newNode.next = head.next;
+    Node* newNode;
+    newNode->next = head->next;
     head = newNode;
 }
 

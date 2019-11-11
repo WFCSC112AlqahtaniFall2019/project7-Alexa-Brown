@@ -69,19 +69,79 @@ CMakeFiles/project7.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project7.dir/main.cpp.s"
 	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexa\CLionProjects\project7-Alexa-Brown\main.cpp -o CMakeFiles\project7.dir\main.cpp.s
 
+CMakeFiles/project7.dir/Stack.cpp.obj: CMakeFiles/project7.dir/flags.make
+CMakeFiles/project7.dir/Stack.cpp.obj: ../Stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexa\CLionProjects\project7-Alexa-Brown\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project7.dir/Stack.cpp.obj"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project7.dir\Stack.cpp.obj -c C:\Users\alexa\CLionProjects\project7-Alexa-Brown\Stack.cpp
+
+CMakeFiles/project7.dir/Stack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project7.dir/Stack.cpp.i"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexa\CLionProjects\project7-Alexa-Brown\Stack.cpp > CMakeFiles\project7.dir\Stack.cpp.i
+
+CMakeFiles/project7.dir/Stack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project7.dir/Stack.cpp.s"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexa\CLionProjects\project7-Alexa-Brown\Stack.cpp -o CMakeFiles\project7.dir\Stack.cpp.s
+
+CMakeFiles/project7.dir/Queue.cpp.obj: CMakeFiles/project7.dir/flags.make
+CMakeFiles/project7.dir/Queue.cpp.obj: ../Queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexa\CLionProjects\project7-Alexa-Brown\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/project7.dir/Queue.cpp.obj"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project7.dir\Queue.cpp.obj -c C:\Users\alexa\CLionProjects\project7-Alexa-Brown\Queue.cpp
+
+CMakeFiles/project7.dir/Queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project7.dir/Queue.cpp.i"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexa\CLionProjects\project7-Alexa-Brown\Queue.cpp > CMakeFiles\project7.dir\Queue.cpp.i
+
+CMakeFiles/project7.dir/Queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project7.dir/Queue.cpp.s"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexa\CLionProjects\project7-Alexa-Brown\Queue.cpp -o CMakeFiles\project7.dir\Queue.cpp.s
+
+CMakeFiles/project7.dir/SortedLinkedList.cpp.obj: CMakeFiles/project7.dir/flags.make
+CMakeFiles/project7.dir/SortedLinkedList.cpp.obj: ../SortedLinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexa\CLionProjects\project7-Alexa-Brown\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/project7.dir/SortedLinkedList.cpp.obj"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project7.dir\SortedLinkedList.cpp.obj -c C:\Users\alexa\CLionProjects\project7-Alexa-Brown\SortedLinkedList.cpp
+
+CMakeFiles/project7.dir/SortedLinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project7.dir/SortedLinkedList.cpp.i"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexa\CLionProjects\project7-Alexa-Brown\SortedLinkedList.cpp > CMakeFiles\project7.dir\SortedLinkedList.cpp.i
+
+CMakeFiles/project7.dir/SortedLinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project7.dir/SortedLinkedList.cpp.s"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexa\CLionProjects\project7-Alexa-Brown\SortedLinkedList.cpp -o CMakeFiles\project7.dir\SortedLinkedList.cpp.s
+
+CMakeFiles/project7.dir/Data.cpp.obj: CMakeFiles/project7.dir/flags.make
+CMakeFiles/project7.dir/Data.cpp.obj: ../Data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\alexa\CLionProjects\project7-Alexa-Brown\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/project7.dir/Data.cpp.obj"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project7.dir\Data.cpp.obj -c C:\Users\alexa\CLionProjects\project7-Alexa-Brown\Data.cpp
+
+CMakeFiles/project7.dir/Data.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project7.dir/Data.cpp.i"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alexa\CLionProjects\project7-Alexa-Brown\Data.cpp > CMakeFiles\project7.dir\Data.cpp.i
+
+CMakeFiles/project7.dir/Data.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project7.dir/Data.cpp.s"
+	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alexa\CLionProjects\project7-Alexa-Brown\Data.cpp -o CMakeFiles\project7.dir\Data.cpp.s
+
 # Object files for target project7
 project7_OBJECTS = \
-"CMakeFiles/project7.dir/main.cpp.obj"
+"CMakeFiles/project7.dir/main.cpp.obj" \
+"CMakeFiles/project7.dir/Stack.cpp.obj" \
+"CMakeFiles/project7.dir/Queue.cpp.obj" \
+"CMakeFiles/project7.dir/SortedLinkedList.cpp.obj" \
+"CMakeFiles/project7.dir/Data.cpp.obj"
 
 # External object files for target project7
 project7_EXTERNAL_OBJECTS =
 
 project7.exe: CMakeFiles/project7.dir/main.cpp.obj
+project7.exe: CMakeFiles/project7.dir/Stack.cpp.obj
+project7.exe: CMakeFiles/project7.dir/Queue.cpp.obj
+project7.exe: CMakeFiles/project7.dir/SortedLinkedList.cpp.obj
+project7.exe: CMakeFiles/project7.dir/Data.cpp.obj
 project7.exe: CMakeFiles/project7.dir/build.make
 project7.exe: CMakeFiles/project7.dir/linklibs.rsp
 project7.exe: CMakeFiles/project7.dir/objects1.rsp
 project7.exe: CMakeFiles/project7.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\alexa\CLionProjects\project7-Alexa-Brown\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable project7.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\alexa\CLionProjects\project7-Alexa-Brown\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable project7.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\project7.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

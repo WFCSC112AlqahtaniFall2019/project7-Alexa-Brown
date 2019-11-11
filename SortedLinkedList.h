@@ -1,13 +1,18 @@
-//
-// Created by alexa on 11/7/2019.
-//
 
 #ifndef PROJECT7_SORTEDLINKEDLIST_H
 #define PROJECT7_SORTEDLINKEDLIST_H
 
+#include <iostream>
+#include <fstream>
+#include "LinkedList.h"
+using namespace std;
 
-class SortedLinkedList {
+class SortedLinkedList : public LinkedList{
+public:
+    void insertSorted();
 
+protected:
+    Node head;
 };
 
 

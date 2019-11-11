@@ -122,6 +122,114 @@ project7/fast:
 	$(MAKE) -f CMakeFiles\project7.dir\build.make CMakeFiles/project7.dir/build
 .PHONY : project7/fast
 
+Data.obj: Data.cpp.obj
+
+.PHONY : Data.obj
+
+# target to build an object file
+Data.cpp.obj:
+	$(MAKE) -f CMakeFiles\project7.dir\build.make CMakeFiles/project7.dir/Data.cpp.obj
+.PHONY : Data.cpp.obj
+
+Data.i: Data.cpp.i
+
+.PHONY : Data.i
+
+# target to preprocess a source file
+Data.cpp.i:
+	$(MAKE) -f CMakeFiles\project7.dir\build.make CMakeFiles/project7.dir/Data.cpp.i
+.PHONY : Data.cpp.i
+
+Data.s: Data.cpp.s
+
+.PHONY : Data.s
+
+# target to generate assembly for a file
+Data.cpp.s:
+	$(MAKE) -f CMakeFiles\project7.dir\build.make CMakeFiles/project7.dir/Data.cpp.s
+.PHONY : Data.cpp.s
+
+Queue.obj: Queue.cpp.obj
+
+.PHONY : Queue.obj
+
+# target to build an object file
+Queue.cpp.obj:
+	$(MAKE) -f CMakeFiles\project7.dir\build.make CMakeFiles/project7.dir/Queue.cpp.obj
+.PHONY : Queue.cpp.obj
+
+Queue.i: Queue.cpp.i
+
+.PHONY : Queue.i
+
+# target to preprocess a source file
+Queue.cpp.i:
+	$(MAKE) -f CMakeFiles\project7.dir\build.make CMakeFiles/project7.dir/Queue.cpp.i
+.PHONY : Queue.cpp.i
+
+Queue.s: Queue.cpp.s
+
+.PHONY : Queue.s
+
+# target to generate assembly for a file
+Queue.cpp.s:
+	$(MAKE) -f CMakeFiles\project7.dir\build.make CMakeFiles/project7.dir/Queue.cpp.s
+.PHONY : Queue.cpp.s
+
+SortedLinkedList.obj: SortedLinkedList.cpp.obj
+
+.PHONY : SortedLinkedList.obj
+
+# target to build an object file
+SortedLinkedList.cpp.obj:
+	$(MAKE) -f CMakeFiles\project7.dir\build.make CMakeFiles/project7.dir/SortedLinkedList.cpp.obj
+.PHONY : SortedLinkedList.cpp.obj
+
+SortedLinkedList.i: SortedLinkedList.cpp.i
+
+.PHONY : SortedLinkedList.i
+
+# target to preprocess a source file
+SortedLinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles\project7.dir\build.make CMakeFiles/project7.dir/SortedLinkedList.cpp.i
+.PHONY : SortedLinkedList.cpp.i
+
+SortedLinkedList.s: SortedLinkedList.cpp.s
+
+.PHONY : SortedLinkedList.s
+
+# target to generate assembly for a file
+SortedLinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles\project7.dir\build.make CMakeFiles/project7.dir/SortedLinkedList.cpp.s
+.PHONY : SortedLinkedList.cpp.s
+
+Stack.obj: Stack.cpp.obj
+
+.PHONY : Stack.obj
+
+# target to build an object file
+Stack.cpp.obj:
+	$(MAKE) -f CMakeFiles\project7.dir\build.make CMakeFiles/project7.dir/Stack.cpp.obj
+.PHONY : Stack.cpp.obj
+
+Stack.i: Stack.cpp.i
+
+.PHONY : Stack.i
+
+# target to preprocess a source file
+Stack.cpp.i:
+	$(MAKE) -f CMakeFiles\project7.dir\build.make CMakeFiles/project7.dir/Stack.cpp.i
+.PHONY : Stack.cpp.i
+
+Stack.s: Stack.cpp.s
+
+.PHONY : Stack.s
+
+# target to generate assembly for a file
+Stack.cpp.s:
+	$(MAKE) -f CMakeFiles\project7.dir\build.make CMakeFiles/project7.dir/Stack.cpp.s
+.PHONY : Stack.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +266,18 @@ help:
 	@echo ... project7
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Data.obj
+	@echo ... Data.i
+	@echo ... Data.s
+	@echo ... Queue.obj
+	@echo ... Queue.i
+	@echo ... Queue.s
+	@echo ... SortedLinkedList.obj
+	@echo ... SortedLinkedList.i
+	@echo ... SortedLinkedList.s
+	@echo ... Stack.obj
+	@echo ... Stack.i
+	@echo ... Stack.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

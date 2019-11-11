@@ -80,6 +80,30 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Data.cpp">
+			<Option target="project7"/>
+		</Unit>
+		<Unit filename="C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Data.h">
+			<Option target="project7"/>
+		</Unit>
+		<Unit filename="C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Queue.cpp">
+			<Option target="project7"/>
+		</Unit>
+		<Unit filename="C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Queue.h">
+			<Option target="project7"/>
+		</Unit>
+		<Unit filename="C:/Users/alexa/CLionProjects/project7-Alexa-Brown/SortedLinkedList.cpp">
+			<Option target="project7"/>
+		</Unit>
+		<Unit filename="C:/Users/alexa/CLionProjects/project7-Alexa-Brown/SortedLinkedList.h">
+			<Option target="project7"/>
+		</Unit>
+		<Unit filename="C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Stack.cpp">
+			<Option target="project7"/>
+		</Unit>
+		<Unit filename="C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Stack.h">
+			<Option target="project7"/>
+		</Unit>
 		<Unit filename="C:/Users/alexa/CLionProjects/project7-Alexa-Brown/main.cpp">
 			<Option target="project7"/>
 		</Unit>

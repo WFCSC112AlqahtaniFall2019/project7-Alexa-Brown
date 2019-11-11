@@ -1,4 +1,5 @@
 /* Class: LinkedList
+ * Alexa Brown
  * Description: Very basic singly linked List class with single head
  * class for use with Data object. It is meant to be inherited for
  * more complex linked lists. (Comes with Node class.)
@@ -11,14 +12,14 @@
 class Node {
 public:
     Data data; // object at node
-    Node *next; // pointer to next node
+    Node* next; // pointer to next node
 
     Node(const Data &d, Node *n);
 };
 
 class LinkedList {
 protected:
-    Node *head;
+    Node* head;
 public:
     LinkedList();
     LinkedList(const LinkedList& list);

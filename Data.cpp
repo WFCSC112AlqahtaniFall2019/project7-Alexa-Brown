@@ -4,7 +4,7 @@
 #include <fstream>
 using namespace std;
 
-bool Data:: operator > (Data d){
+bool Data:: operator > (Data d){ // > overloader
     if (this->happinessRank < d.happinessRank){
         return false;
     }
@@ -15,7 +15,7 @@ bool Data:: operator > (Data d){
         return false;
     }
 }
-bool Data:: operator < (Data d){
+bool Data:: operator < (Data d){ // < overloader
     if (this->happinessRank > d.happinessRank){
         return false;
     }
@@ -26,4 +26,8 @@ bool Data:: operator < (Data d){
         return false;
     }
 
+}
+
+ostream& operator << (ostream& os, const Data a){
+    os << a.country;
 }

@@ -1,12 +1,19 @@
-//
-// Created by alexa on 11/7/2019.
-//
-
 #ifndef PROJECT7_QUEUE_H
 #define PROJECT7_QUEUE_H
 
+#include <iostream>
+#include <fstream>
+#include "LinkedList.h"
+using namespace std;
 
-class Queue {
+
+class Queue: public LinkedList {
+public:
+    Queue();
+
+private:
+    LinkedList tail; //right?
+
 
 };
 

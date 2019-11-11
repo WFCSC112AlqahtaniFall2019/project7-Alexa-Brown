@@ -8,17 +8,22 @@
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
 #include "Data.h" //You need to create this
+using namespace std;
 
 class Node {
 public:
     Data data; // object at node
     Node* next; // pointer to next node
 
-    Node(const Data &d, Node *n= nullptr);
+    Node(Data& d, Node *n= nullptr);
 };
-Node::Node(const Data &d, Node *n) {
-
-}
+Node::Node(Data& d, Node *n) {
+    data.setCountry(d.getCountry());
+    data.setGDP(d.getGDP());
+    data.sethappinessRank(d.gethappinessRank());
+    data.sethappinessScore(d.gethappinessScore());
+    n = nullptr;
+};
 
 class LinkedList {
 protected:

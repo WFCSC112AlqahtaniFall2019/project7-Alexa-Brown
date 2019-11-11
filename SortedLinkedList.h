@@ -12,7 +12,7 @@ public:
     void insertSorted();
 
 protected:
-    Node head;
+    Node* head;
 };
 
 

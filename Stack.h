@@ -4,6 +4,7 @@
 #include <iostream>
 #include <fstream>
 #include "LinkedList.h"
+#include "Data.h"
 
 using namespace std;
 
@@ -14,9 +15,8 @@ class Stack : public LinkedList{
      void push_back(Data obj);
      bool pop_head(Data obj);
     // Node newNode(obj, nullptr);
-
-
 };
+
 
 
 #endif //PROJECT7_STACK_H

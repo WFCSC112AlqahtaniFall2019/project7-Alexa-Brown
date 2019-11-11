@@ -2,6 +2,7 @@
 #include "Data.h"
 #include <iostream>
 #include <fstream>
+#include <string>
 using namespace std;
 
 bool Data:: operator > (Data d){ // > overloader

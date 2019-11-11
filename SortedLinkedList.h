@@ -5,6 +5,7 @@
 #include <iostream>
 #include <fstream>
 #include "LinkedList.h"
+#include <string>
 using namespace std;
 
 class SortedLinkedList : public LinkedList{

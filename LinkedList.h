@@ -8,6 +8,7 @@
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
 #include "Data.h" //You need to create this
+#include <string>
 using namespace std;
 
 class Node {
@@ -27,7 +28,7 @@ Node::Node(Data& d, Node *n) {
 
 class LinkedList {
 protected:
-    Node* head;
+    Node head;
 public:
     LinkedList();
     LinkedList(const LinkedList& list);

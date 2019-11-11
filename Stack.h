@@ -5,6 +5,7 @@
 #include <fstream>
 #include "LinkedList.h"
 #include "Data.h"
+#include <string>
 
 using namespace std;
 

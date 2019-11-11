@@ -4,6 +4,7 @@
 #include <iostream>
 #include <fstream>
 #include "LinkedList.h"
+#include <string>
 using namespace std;
 
 

@@ -5,6 +5,7 @@
  */
 
 #include "LinkedList.h"
+#include <string>
 using namespace std;
 
 LinkedList::LinkedList() {

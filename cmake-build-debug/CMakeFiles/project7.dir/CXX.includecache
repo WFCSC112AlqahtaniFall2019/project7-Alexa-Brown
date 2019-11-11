@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Data.cpp
+Data.h
+C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Data.h
+iostream
+-
+fstream
+-
+string
+-
+
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Data.h
 iostream
 -
@@ -17,15 +27,21 @@ string
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/LinkedList.cpp
 LinkedList.h
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/LinkedList.h
+string
+-
 
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/LinkedList.h
 Data.h
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Data.h
+string
+-
 
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Queue.cpp
 iostream
 -
 fstream
+-
+string
 -
 Queue.h
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Queue.h
@@ -37,6 +53,8 @@ fstream
 -
 LinkedList.h
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/LinkedList.h
+string
+-
 
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/SortedLinkedList.cpp
 iostream
@@ -47,6 +65,8 @@ SortedLinkedList.h
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/SortedLinkedList.h
 LinkedList.h
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/LinkedList.h
+string
+-
 
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/SortedLinkedList.h
 iostream
@@ -55,11 +75,15 @@ fstream
 -
 LinkedList.h
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/LinkedList.h
+string
+-
 
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Stack.cpp
 iostream
 -
 fstream
+-
+string
 -
 Stack.h
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Stack.h
@@ -77,11 +101,15 @@ LinkedList.h
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/LinkedList.h
 Data.h
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Data.h
+string
+-
 
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/main.cpp
 iostream
 -
 fstream
+-
+string
 -
 Data.h
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Data.h

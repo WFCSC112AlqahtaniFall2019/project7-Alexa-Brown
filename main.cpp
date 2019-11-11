@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include <string>
 #include "Data.h"
 #include "Stack.h"
 #include "Queue.h"

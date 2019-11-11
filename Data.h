@@ -9,13 +9,40 @@ using namespace std;
 
 class Data {
     friend ostream& operator << (ostream& os, Data a);
-    protected:
+private:
         string country;
         int happinessRank;
         int happinessScore;
         int GDP;
         bool operator > (Data d);
         bool operator < (Data d);
+
+public:
+    void setCountry (string c){
+        country = c;
+    }
+    string getCountry(){
+        return country;
+    }
+    void sethappinessRank (int r){
+        happinessRank = r;
+    }
+    int gethappinessRank(){
+        return happinessRank;
+    }
+    void sethappinessScore (int s){
+        happinessScore = s;
+    }
+    int gethappinessScore(){
+        return happinessScore;
+    }
+    void setGDP(int g){
+        GDP = g;
+    }
+    int getGDP(){
+        return GDP;
+    }
+
 
 };
 

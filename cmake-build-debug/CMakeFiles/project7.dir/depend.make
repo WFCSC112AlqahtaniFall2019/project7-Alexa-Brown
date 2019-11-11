@@ -4,14 +4,28 @@
 CMakeFiles/project7.dir/Data.cpp.obj: ../Data.cpp
 CMakeFiles/project7.dir/Data.cpp.obj: ../Data.h
 
+CMakeFiles/project7.dir/LinkedList.cpp.obj: ../Data.h
+CMakeFiles/project7.dir/LinkedList.cpp.obj: ../LinkedList.cpp
+CMakeFiles/project7.dir/LinkedList.cpp.obj: ../LinkedList.h
+
+CMakeFiles/project7.dir/Queue.cpp.obj: ../Data.h
+CMakeFiles/project7.dir/Queue.cpp.obj: ../LinkedList.h
 CMakeFiles/project7.dir/Queue.cpp.obj: ../Queue.cpp
 CMakeFiles/project7.dir/Queue.cpp.obj: ../Queue.h
 
+CMakeFiles/project7.dir/SortedLinkedList.cpp.obj: ../Data.h
+CMakeFiles/project7.dir/SortedLinkedList.cpp.obj: ../LinkedList.h
 CMakeFiles/project7.dir/SortedLinkedList.cpp.obj: ../SortedLinkedList.cpp
 CMakeFiles/project7.dir/SortedLinkedList.cpp.obj: ../SortedLinkedList.h
 
+CMakeFiles/project7.dir/Stack.cpp.obj: ../Data.h
+CMakeFiles/project7.dir/Stack.cpp.obj: ../LinkedList.h
 CMakeFiles/project7.dir/Stack.cpp.obj: ../Stack.cpp
 CMakeFiles/project7.dir/Stack.cpp.obj: ../Stack.h
 
+CMakeFiles/project7.dir/main.cpp.obj: ../Data.h
+CMakeFiles/project7.dir/main.cpp.obj: ../LinkedList.h
+CMakeFiles/project7.dir/main.cpp.obj: ../Queue.h
+CMakeFiles/project7.dir/main.cpp.obj: ../Stack.h
 CMakeFiles/project7.dir/main.cpp.obj: ../main.cpp
 

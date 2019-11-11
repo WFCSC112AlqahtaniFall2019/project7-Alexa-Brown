@@ -86,6 +86,12 @@
 		<Unit filename="C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Data.h">
 			<Option target="project7"/>
 		</Unit>
+		<Unit filename="C:/Users/alexa/CLionProjects/project7-Alexa-Brown/LinkedList.cpp">
+			<Option target="project7"/>
+		</Unit>
+		<Unit filename="C:/Users/alexa/CLionProjects/project7-Alexa-Brown/LinkedList.h">
+			<Option target="project7"/>
+		</Unit>
 		<Unit filename="C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Queue.cpp">
 			<Option target="project7"/>
 		</Unit>

@@ -14,8 +14,11 @@ public:
     Data data; // object at node
     Node* next; // pointer to next node
 
-    Node(const Data &d, Node *n);
+    Node(const Data &d, Node *n= nullptr);
 };
+Node::Node(const Data &d, Node *n) {
+
+}
 
 class LinkedList {
 protected:
@@ -27,6 +30,7 @@ public:
     void print(ostream &os);
     void pop_head();
     ~LinkedList();
+    void append(Data item);
 };
 
 #endif //LINKEDLIST_H

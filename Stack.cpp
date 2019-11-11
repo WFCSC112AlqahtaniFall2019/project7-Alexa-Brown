@@ -3,15 +3,19 @@
 using namespace std;
 
 #include "Stack.h"
+#include "LinkedList.h"
 
 Stack::Stack(){
 }
 
-void push_back(Data obj){
-LinkedList newNode;
+void Stack:: push_back(Data obj){
+Node newNode (obj, nullptr);
+
 
 
 }
-void pop_head(Data obj){
+bool Stack:: pop_head(Data obj){
+
+    //newNode.pop_head
 
 }

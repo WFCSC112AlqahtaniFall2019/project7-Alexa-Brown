@@ -11,17 +11,20 @@ LinkedList::LinkedList() {
     head = nullptr; // empty list
 }
 
+
 // copy constructor
 LinkedList::LinkedList(const LinkedList& list) {
     // if list is not empty, perform deep copy
     if(list.head) {
         Node *curr, *listcurr;
         // copy head node data
-        head = curr = new Node(list.head->item);
+        head = curr = new Node(list.head->data);
+        //list.head->item
         listcurr = list.head->next;
         // loop over rest of nodes, copying data
         while (listcurr != nullptr) {
-            curr = curr->next = new Node(listcurr->item);
+            curr = curr->next = new Node(listcurr->data);
+            //listcurr-> item
             listcurr = listcurr->next;
         }
     } else {
@@ -40,7 +43,7 @@ void LinkedList::print(ostream &os) {
     // start at the head of the list
     Node *curr = head;
     while (curr != nullptr) {
-        os << curr->item << endl; // use overloaded output operator to print
+        os << curr->data << endl; // use overloaded output operator to print
         curr = curr->next; // go to next node in list
     }
 }
@@ -59,5 +62,17 @@ LinkedList::~LinkedList() {
     // keep popping until empty list
     while (head != nullptr) {
         pop_head();
+    }
+}
+
+void LinkedList::append(Data item) {//to add an item to the list, used also to create the list
+    if (head == nullptr) {
+        head = new Node (item);
+    } else {
+        Node* current = head;
+        while (current->next != nullptr){
+            current = current->next;
+        }
+        current->next = new Node (item);
     }
 }

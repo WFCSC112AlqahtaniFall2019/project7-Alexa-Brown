@@ -11,9 +11,11 @@ using namespace std;
 class Queue: public LinkedList {
 public:
     Queue();
+    void enqueue_tail (Data obj);
+    bool dequeue_head ();
 
 private:
-    LinkedList tail; //right?
+    Node* tail; //right?
 
 
 };

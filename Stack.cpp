@@ -7,7 +7,7 @@ using namespace std;
 #include "Data.h"
 
 Stack::Stack(){
-    head->next = nullptr;
+    head = nullptr;
 }
 
 void Stack:: push_back(Data obj){
@@ -24,7 +24,7 @@ void Stack:: push_back(Data obj){
     }
 }
 
-bool Stack:: pop_head(Data obj){
+bool Stack:: pop_head(){
     Node* deleted = head->next;
     if (head->next == nullptr){
         return false;

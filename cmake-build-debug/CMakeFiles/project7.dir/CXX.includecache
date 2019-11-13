@@ -20,6 +20,16 @@ C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Data.h
 string
 -
 
+C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Queue.h
+iostream
+-
+fstream
+-
+LinkedList.h
+C:/Users/alexa/CLionProjects/project7-Alexa-Brown/LinkedList.h
+string
+-
+
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Stack.cpp
 iostream
 -
@@ -45,4 +55,20 @@ Data.h
 C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Data.h
 string
 -
+
+C:/Users/alexa/CLionProjects/project7-Alexa-Brown/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+Data.h
+C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Data.h
+Stack.h
+C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Stack.h
+Queue.h
+C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Queue.h
+LinkedList.h
+C:/Users/alexa/CLionProjects/project7-Alexa-Brown/LinkedList.h
 

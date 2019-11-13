@@ -9,11 +9,15 @@ using namespace std;
 
 class Data {
     friend ostream& operator << (ostream& os, Data a);
+
+public:
+    Data();
+    Data(string c, int rank, double score, double g);
 private:
         string country;
         int happinessRank;
-        int happinessScore;
-        int GDP;
+        double happinessScore;
+        double GDP;
         bool operator > (Data d);
         bool operator < (Data d);
 
@@ -24,22 +28,22 @@ public:
     string getCountry(){
         return country;
     }
-    void sethappinessRank (int r){
+    void sethappinessRank (double r){
         happinessRank = r;
     }
-    int gethappinessRank(){
+    double gethappinessRank(){
         return happinessRank;
     }
-    void sethappinessScore (int s){
+    void sethappinessScore (double s){
         happinessScore = s;
     }
-    int gethappinessScore(){
+    double gethappinessScore(){
         return happinessScore;
     }
-    void setGDP(int g){
+    void setGDP(double g){
         GDP = g;
     }
-    int getGDP(){
+    double getGDP(){
         return GDP;
     }
 

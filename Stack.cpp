@@ -7,25 +7,24 @@ using namespace std;
 #include "Data.h"
 
 Stack::Stack(){
-    head = nullptr;
+    head = new Node();
 }
 
 void Stack:: push_back(Data obj){
-    Node* current = head->next;
-    Node* temp;
-    if (head->next == nullptr) {
-        temp = new Node(obj, nullptr);
-        head->next = temp;
+    if (head->data.getCountry() == "") {
+       Node* temp = new Node(obj, nullptr);
+       head = temp;
     }
     else{
-        temp = new Node(obj, nullptr);
-        head->next = temp;
-        temp->next = current;
+        Node* temp = new Node(obj, nullptr);
+        temp->next = head;
+        head = temp;
     }
 }
 
-bool Stack:: pop_head(){
-    Node* deleted = head->next;
+bool Stack:: pop_head(Stack* obj){
+    Node* deleted = new Node(head->next->data,nullptr);
+    //head->next->data?
     if (head->next == nullptr){
         return false;
     }

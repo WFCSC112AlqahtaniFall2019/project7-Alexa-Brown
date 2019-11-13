@@ -37,8 +37,9 @@ int main() {
         cout << "Sorted file did not open" << endl;
     }
     cout << "Opened" << endl;
-
-    while (!inFile.eof()) {
+int x = 0;
+    while (x <2) {
+        //!inFile.eof()
         Data info;
         //for (int i = 0; i<3; i++) {
             cout << "hi" <<endl;
@@ -71,14 +72,15 @@ int main() {
        // newInfo->push_back(info);
         cout << "hello" << endl;
         //cout << newInfo->pop_head();
+        x++;
     }
 
 
-    while(newInfo->pop_head()){
+    while(newInfo->pop_head(newInfo)){
         newInfo->print(outFileStack);
-        if (!newInfo->pop_head()){
+        /*if (!newInfo->pop_head(newInfo)){
             break;
-        }
+        }*/
     }
 
 

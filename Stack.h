@@ -14,7 +14,7 @@ class Stack : public LinkedList{
     public:
     Stack();
      void push_back(Data obj);
-     bool pop_head();
+     bool pop_head(Stack* obj);
     // Node newNode(obj, nullptr);
 };
 

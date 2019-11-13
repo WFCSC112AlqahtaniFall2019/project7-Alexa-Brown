@@ -23,7 +23,7 @@ public:
             n = nullptr;
 
         }
-        
+
 };
 
 class LinkedList {

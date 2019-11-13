@@ -7,21 +7,32 @@ using namespace std;
 #include "Data.h"
 
 Stack::Stack(){
+    head->next = nullptr;
 }
 
 void Stack:: push_back(Data obj){
-    Node* newNode;
-    newNode->next = head->next;
-    head = newNode;
+    Node* current = head->next;
+    Node* temp;
+    if (head->next == nullptr) {
+        temp = new Node(obj, nullptr);
+        head->next = temp;
+    }
+    else{
+        temp = new Node(obj, nullptr);
+        head->next = temp;
+        temp->next = current;
+    }
 }
 
 bool Stack:: pop_head(Data obj){
-    Node current (obj, nullptr);
-    if (current.next == nullptr){
+    Node* deleted = head->next;
+    if (head->next == nullptr){
         return false;
     }
-    while (current.next != nullptr){
-
+    else{
+        head->next = deleted->next;
+        //still need to output to file
+        delete deleted;
         return true;
     }
 

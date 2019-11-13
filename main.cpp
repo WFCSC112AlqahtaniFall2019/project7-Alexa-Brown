@@ -21,10 +21,12 @@ int main() {
     if (!inFile.is_open()){
         cout << "The file did not open" << endl;
     }
+    //cout << "Opened" << endl;
 
     while (!inFile.eof()) {
         Data info;
-        for (int i = 0; i<3; ++i) {
+        for (int i = 0; i<3; i++) {
+            cout << "hi" <<endl;
             string c;
             int r, s, g;//get the first 4 columns of info
             inFile >> c;
@@ -39,8 +41,13 @@ int main() {
             inFile.clear();
         }
         list.append(info);
+        cout << "Hello" << endl;
+        newInfo.push_back(info);
+        cout << "hello" << endl;
+        cout << newInfo.pop_head(info);
     }
 
+//cout << newInfo.pop_head(info);
 
 
 

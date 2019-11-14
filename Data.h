@@ -13,13 +13,16 @@ class Data {
 public:
     Data();
     Data(string c, int rank, double score, double g);
+
+    bool operator > (Data &d);
+
+    bool operator < (Data &d);
+
 private:
         string country;
         int happinessRank;
         double happinessScore;
         double GDP;
-        bool operator > (Data d);
-        bool operator < (Data d);
 
 public:
     void setCountry (string c){

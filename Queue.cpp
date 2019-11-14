@@ -6,29 +6,39 @@ using namespace std;
 
 Queue::Queue() {
     head =nullptr;
+    tail = nullptr;
 }
 
 void Queue:: enqueue_tail (Data obj){
-    Node* current = head->next;
+    Node* current = new Node(obj, nullptr);
+    if(tail == nullptr) { // then you are at the end of the list
+        head = current;
+        tail = current;
+    }
+    else{
+        tail->next = current;
+        tail = current;
+    }
+  /*
     tail = head;
     Node* temp;
-    while (current->next != nullptr){
+    while (current != nullptr){
         current = current->next;
         tail = tail->next;
     }
     temp = new Node (obj, tail);
     tail->next = temp;
-    delete current;
+    */
 }
 
 bool Queue::dequeue_head (){
-    Node* deleted = head->next;
-    if (head->next == nullptr){
-        return false;
-    }
-    else{
-        head->next = deleted->next;
+    Node* deleted = head;
+    if (head != nullptr){
+        head = head->next;
         delete deleted;
         return true;
+    }
+    else{
+        return false;
     }
 }

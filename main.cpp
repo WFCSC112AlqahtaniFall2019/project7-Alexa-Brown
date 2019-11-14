@@ -5,24 +5,29 @@
 #include "Stack.h"
 #include "Queue.h"
 #include "LinkedList.h"
+#include "SortedLinkedList.h"
 using namespace std;
 
 
 
 int main() {
-    LinkedList list;
-    Stack* newInfo = new Stack;
+    LinkedList* list;
+    Stack* nextStack = new Stack;
+    Queue* nextQueue = new Queue;
+    SortedLinkedList* nextList = new SortedLinkedList;
+
     ifstream inFile;
     ofstream outFileStack;
     ofstream outFileQueue;
     ofstream outFileSorted;
+
 
     inFile.open ("WorldHappinessReport.csv");
     outFileStack.open ("stacked.txt");
     outFileQueue.open ("queue.txt");
     outFileSorted.open ("sorted.txt");
 
-    outFileStack << "Hi ";
+    //outFileStack << "Hi ";
 
     if (!inFile.is_open()){
         cout << "The file did not open" << endl;
@@ -38,10 +43,9 @@ int main() {
     }
     cout << "Opened" << endl;
 int x = 0;
-    while (x <2) {
+    while (x<2) {
         //!inFile.eof()
-        Data info;
-        //for (int i = 0; i<3; i++) {
+
             cout << "hi" <<endl;
 
             //int r, s, g;//get the first 4 columns of info
@@ -54,8 +58,11 @@ int x = 0;
             int rank = stoi(r);
             double score = stod(s);
             double gdpvalue = stod(g);
-            info = Data (c, rank, score, gdpvalue);
-            newInfo->push_back(info);
+            Data info = Data (c, rank, score, gdpvalue);
+            nextStack->push_back(info);
+            nextQueue->enqueue_tail(info);
+            nextList->insertSorted(info);
+
            /* inFile >> c;
             info.setCountry(c);
             inFile >> r;
@@ -66,25 +73,26 @@ int x = 0;
             info.setGDP(g);*/
             //newInfo->push_back(info);
            // inFile.clear();
-        //}
-        //list.append(info);
-        cout << "Hello" << endl;
-       // newInfo->push_back(info);
-        cout << "hello" << endl;
-        //cout << newInfo->pop_head();
+
         x++;
     }
 
+    cout << "gets to print"<< endl;
 
-    while(newInfo->pop_head(newInfo)){
+    nextStack->print(outFileStack);
+    nextQueue->print(outFileQueue);
+    nextList->print(outFileSorted);
+
+
+    /*while(newInfo->pop_head(newInfo)){
         newInfo->print(outFileStack);
-        /*if (!newInfo->pop_head(newInfo)){
+        if (!newInfo->pop_head(newInfo)){
             break;
-        }*/
-    }
+        }
+    }*/
 
 
-
+    cout << "gets to close"<< endl;
 
     inFile.close();
     outFileStack.close();

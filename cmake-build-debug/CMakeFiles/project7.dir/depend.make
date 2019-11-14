@@ -26,6 +26,7 @@ CMakeFiles/project7.dir/Stack.cpp.obj: ../Stack.h
 CMakeFiles/project7.dir/main.cpp.obj: ../Data.h
 CMakeFiles/project7.dir/main.cpp.obj: ../LinkedList.h
 CMakeFiles/project7.dir/main.cpp.obj: ../Queue.h
+CMakeFiles/project7.dir/main.cpp.obj: ../SortedLinkedList.h
 CMakeFiles/project7.dir/main.cpp.obj: ../Stack.h
 CMakeFiles/project7.dir/main.cpp.obj: ../main.cpp
 

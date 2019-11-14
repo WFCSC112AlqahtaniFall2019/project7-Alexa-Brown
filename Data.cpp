@@ -18,18 +18,18 @@ Data::Data(string c, int rank, double score, double g) {
     GDP = g;
 }
 
-bool Data:: operator > (Data d){ // > overloader
+bool Data:: operator > (Data &d){ // > overloader
     if (this->happinessRank < d.happinessRank){
         return false;
     }
-    else if (this->happinessRank > d.happinessRank){
+    else if (this->happinessRank> d.happinessRank){
         return true;
     }
     else{
         return false;
     }
 }
-bool Data:: operator < (Data d){ // < overloader
+bool Data:: operator < (Data &d){ // < overloader
     if (this->happinessRank > d.happinessRank){
         return false;
     }
@@ -43,5 +43,6 @@ bool Data:: operator < (Data d){ // < overloader
 }
 
 ostream& operator << (ostream& os, const Data a){
-    os << "Country: " << a.country << " Rank: " << a.happinessRank << " Score: " << a.happinessScore << " GDP: " << a.GDP;
+    os << "Country: " << a.country << " Rank: " << a.happinessRank << " Score: " << a.happinessScore << " GDP: " << a.GDP << endl;
+    cout << "Printing" << endl;
 }

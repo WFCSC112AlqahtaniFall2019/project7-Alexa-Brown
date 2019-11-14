@@ -10,7 +10,7 @@ using namespace std;
 
 class SortedLinkedList : public LinkedList{
 public:
-    void insertSorted();
+    void insertSorted(Data obj);
 
 protected:
     Node* head;

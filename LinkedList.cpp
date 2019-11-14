@@ -65,7 +65,7 @@ LinkedList::~LinkedList() {
         pop_head();
     }
 }
-
+/*
 void LinkedList::append(Data item) {//to add an item to the list, used also to create the list
     if (head == nullptr) {
         head = new Node (item);
@@ -76,4 +76,4 @@ void LinkedList::append(Data item) {//to add an item to the list, used also to c
         }
         current->next = new Node (item);
     }
-}
+}*/

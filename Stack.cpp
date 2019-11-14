@@ -23,7 +23,16 @@ void Stack:: push_back(Data obj){
 }
 
 bool Stack:: pop_head(Stack* obj){
-    Node* deleted = new Node(head->next->data,nullptr);
+    if (head != nullptr){
+        Node* temp = head;
+        head = head->next;
+        delete temp;
+        return true;
+    }
+    else{
+        return false;
+    }
+    /*Node* deleted = new Node(head->next->data,nullptr);
     //head->next->data?
     if (head->next == nullptr){
         return false;
@@ -34,5 +43,5 @@ bool Stack:: pop_head(Stack* obj){
         delete deleted;
         return true;
     }
-
+*/
 }

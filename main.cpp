@@ -27,7 +27,9 @@ int main() {
     outFileQueue.open ("queue.txt");
     outFileSorted.open ("sorted.txt");
 
-    //outFileStack << "Hi ";
+    //outFileStack << "Hi "; //checking that things are writing to the outfiles
+    //outFileQueue << "Hi";
+    outFileSorted << "Hi";
 
     if (!inFile.is_open()){
         cout << "The file did not open" << endl;
@@ -41,14 +43,12 @@ int main() {
     if (!outFileSorted.is_open()){
         cout << "Sorted file did not open" << endl;
     }
-    cout << "Opened" << endl;
-int x = 0;
-    while (x<2) {
-        //!inFile.eof()
+    cout << "Files are open" << endl;
+
+    while (!inFile.eof()) {
 
             cout << "hi" <<endl;
 
-            //int r, s, g;//get the first 4 columns of info
             string c, r, s, g;
             getline(inFile, c, ',');
             getline(inFile, r, ',');
@@ -63,18 +63,6 @@ int x = 0;
             nextQueue->enqueue_tail(info);
             nextList->insertSorted(info);
 
-           /* inFile >> c;
-            info.setCountry(c);
-            inFile >> r;
-            info.sethappinessRank(r);
-            inFile >> s;
-            info.sethappinessScore(s);
-            inFile >> g;
-            info.setGDP(g);*/
-            //newInfo->push_back(info);
-           // inFile.clear();
-
-        x++;
     }
 
     cout << "gets to print"<< endl;
@@ -82,15 +70,6 @@ int x = 0;
     nextStack->print(outFileStack);
     nextQueue->print(outFileQueue);
     nextList->print(outFileSorted);
-
-
-    /*while(newInfo->pop_head(newInfo)){
-        newInfo->print(outFileStack);
-        if (!newInfo->pop_head(newInfo)){
-            break;
-        }
-    }*/
-
 
     cout << "gets to close"<< endl;
 

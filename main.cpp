@@ -61,7 +61,7 @@ int main() {
             Data info = Data (c, rank, score, gdpvalue);
             nextStack->push_back(info);
             nextQueue->enqueue_tail(info);
-            nextList->insertSorted(info);
+            //nextList->insertSorted(info);
 
     }
 

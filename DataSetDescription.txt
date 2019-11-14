@@ -1,0 +1,8 @@
+I chose the data set about the World Happiness Report because I love to see the countries to are happy and the factors that
+might play into this. I thought it was very interesting to see a lot of European countries highly ranked in happiness, with
+many African countries ranked lower. I try to be a very positive person, trying to find the good and happy things in life so
+I was excited when I found this data set because I could see the other countries that are trying to do something similar.
+This data set shows the country name, the happiness rank, the happiness score, and the GDP of these countries. The higher the
+score, the higher the rank because there are less things that have a negative impact on the country's happiness and more things
+that increase the country's happiness. Another interesting thing is that the GDP was usually higher for the countries which were
+ranked higher. This data set was very interesting to work with and I'm excited to see more data sets similar to it.

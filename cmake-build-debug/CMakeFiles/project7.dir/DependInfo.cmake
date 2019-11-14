@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Data.cpp" "C:/Users/alexa/CLionProjects/project7-Alexa-Brown/cmake-build-debug/CMakeFiles/project7.dir/Data.cpp.obj"
-  "C:/Users/alexa/CLionProjects/project7-Alexa-Brown/LinkedList.cpp" "C:/Users/alexa/CLionProjects/project7-Alexa-Brown/cmake-build-debug/CMakeFiles/project7.dir/LinkedList.cpp.obj"
-  "C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Queue.cpp" "C:/Users/alexa/CLionProjects/project7-Alexa-Brown/cmake-build-debug/CMakeFiles/project7.dir/Queue.cpp.obj"
-  "C:/Users/alexa/CLionProjects/project7-Alexa-Brown/SortedLinkedList.cpp" "C:/Users/alexa/CLionProjects/project7-Alexa-Brown/cmake-build-debug/CMakeFiles/project7.dir/SortedLinkedList.cpp.obj"
-  "C:/Users/alexa/CLionProjects/project7-Alexa-Brown/Stack.cpp" "C:/Users/alexa/CLionProjects/project7-Alexa-Brown/cmake-build-debug/CMakeFiles/project7.dir/Stack.cpp.obj"
-  "C:/Users/alexa/CLionProjects/project7-Alexa-Brown/main.cpp" "C:/Users/alexa/CLionProjects/project7-Alexa-Brown/cmake-build-debug/CMakeFiles/project7.dir/main.cpp.obj"
+  "C:/Users/alexa/CLionProjects/project7-Alexa-Brown1/Data.cpp" "C:/Users/alexa/CLionProjects/project7-Alexa-Brown1/cmake-build-debug/CMakeFiles/project7.dir/Data.cpp.obj"
+  "C:/Users/alexa/CLionProjects/project7-Alexa-Brown1/LinkedList.cpp" "C:/Users/alexa/CLionProjects/project7-Alexa-Brown1/cmake-build-debug/CMakeFiles/project7.dir/LinkedList.cpp.obj"
+  "C:/Users/alexa/CLionProjects/project7-Alexa-Brown1/Queue.cpp" "C:/Users/alexa/CLionProjects/project7-Alexa-Brown1/cmake-build-debug/CMakeFiles/project7.dir/Queue.cpp.obj"
+  "C:/Users/alexa/CLionProjects/project7-Alexa-Brown1/SortedLinkedList.cpp" "C:/Users/alexa/CLionProjects/project7-Alexa-Brown1/cmake-build-debug/CMakeFiles/project7.dir/SortedLinkedList.cpp.obj"
+  "C:/Users/alexa/CLionProjects/project7-Alexa-Brown1/Stack.cpp" "C:/Users/alexa/CLionProjects/project7-Alexa-Brown1/cmake-build-debug/CMakeFiles/project7.dir/Stack.cpp.obj"
+  "C:/Users/alexa/CLionProjects/project7-Alexa-Brown1/main.cpp" "C:/Users/alexa/CLionProjects/project7-Alexa-Brown1/cmake-build-debug/CMakeFiles/project7.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

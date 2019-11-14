@@ -1,4 +1,9 @@
-
+/*
+ * Alexa Brown
+ * CSC 112
+ * Project 7
+ * Implemented stack, queue, and linked list sort classes to read in a file of data and output it to a textfile.
+ */
 #ifndef PROJECT7_DATA_H
 #define PROJECT7_DATA_H
 
@@ -14,7 +19,7 @@ public:
     Data();
     Data(string c, int rank, double score, double g);
 
-    bool operator > (Data &d);
+    bool operator > (const Data &d);
 
     bool operator < (Data &d);
 

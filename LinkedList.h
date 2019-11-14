@@ -4,6 +4,12 @@
  * class for use with Data object. It is meant to be inherited for
  * more complex linked lists. (Comes with Node class.)
  */
+/*
+ * Alexa Brown
+ * CSC 112
+ * Project 7
+ * Implemented stack, queue, and linked list sort classes to read in a file of data and output it to a textfile.
+ */
 
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
@@ -32,7 +38,7 @@ public:
 
 class LinkedList {
 protected:
-    Node* head;
+    Node* head = nullptr;
 public:
     LinkedList();
     LinkedList(const LinkedList& list);

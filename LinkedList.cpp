@@ -1,7 +1,14 @@
+
 /* Class: LinkedList
  * Description: Very basic singly linked List class with single head 
  * class for use with Data object. It is meant to be inherited for
  * more complex linked lists.
+ */
+/*
+ * Alexa Brown
+ * CSC 112
+ * Project 7
+ * Implemented stack, queue, and linked list sort classes to read in a file of data and output it to a textfile.
  */
 
 #include "LinkedList.h"

@@ -19,7 +19,7 @@ void SortedLinkedList:: insertSorted(Data obj) {
     //head = obj;
    //Node* iterator = head;
     //while (iterator != nullptr) {
-        cout << "in sorted";
+       // cout << "in sorted";
 
         if (head == nullptr) {
             head = newData;

@@ -15,7 +15,7 @@ using namespace std;
 
 class SortedLinkedList : public LinkedList{
 public:
-    SortedLinkedList();
+    SortedLinkedList(){}
     void insertSorted(Data obj);
 //bring in most of the variables and information from Linked List
 

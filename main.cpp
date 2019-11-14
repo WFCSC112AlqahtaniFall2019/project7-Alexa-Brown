@@ -43,7 +43,7 @@ int main() {
 
    //checking that all of the files are opened and can be used
     if (!inFile.is_open()){
-        cout << "The file did not open" << endl;
+        cout << "The input file did not open" << endl;
     }
     if (!outFileStack.is_open()){
         cout << "Stack file did not open" << endl;
@@ -54,7 +54,7 @@ int main() {
     if (!outFileSorted.is_open()){
         cout << "Sorted file did not open" << endl;
     }
-    cout << "Files are open" << endl;
+    cout << "Files are open." << endl;
 
     //getting the information from the files
     while (!inFile.eof()) {
@@ -85,17 +85,18 @@ int main() {
     nextQueue->print(outFileQueue);
     nextList->print(outFileSorted);
 
-    //cout << "gets to close"<< endl;
+    //delete all of the data Nodes to avoid memory leakage
+    while(nextStack->pop_head(other));
+    while(nextQueue->dequeue_head());
 
-    //while(nextStack->pop_head(other));
-   // while(nextQueue->dequeue_head());
+    //cout << "gets to close"<< endl;
 
     //closing the files after using them to avoid memory leakage
     inFile.close();
     outFileStack.close();
     outFileQueue.close();
     outFileSorted.close();
-    cout << "Files are closed" << endl;
+    cout << "Files are closed." << endl;
 
     return 0;
 }

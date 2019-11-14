@@ -1,0 +1,310 @@
+Country: ﻿Norway  Rank: 1  Score: 7.537  GDP: 1.61646
+
+Country: Denmark  Rank: 2  Score: 7.522  GDP: 1.48238
+
+Country: Iceland  Rank: 3  Score: 7.504  GDP: 1.48063
+
+Country: Switzerland  Rank: 4  Score: 7.494  GDP: 1.56498
+
+Country: Finland  Rank: 5  Score: 7.469  GDP: 1.44357
+
+Country: Netherlands  Rank: 6  Score: 7.377  GDP: 1.50394
+
+Country: Canada  Rank: 7  Score: 7.316  GDP: 1.4792
+
+Country: New Zealand  Rank: 8  Score: 7.314  GDP: 1.40571
+
+Country: Sweden  Rank: 9  Score: 7.284  GDP: 1.49439
+
+Country: Australia  Rank: 10  Score: 7.284  GDP: 1.48441
+
+Country: Israel  Rank: 11  Score: 7.213  GDP: 1.37538
+
+Country: Costa Rica  Rank: 12  Score: 7.079  GDP: 1.10971
+
+Country: Austria  Rank: 13  Score: 7.006  GDP: 1.4871
+
+Country: United States  Rank: 14  Score: 6.993  GDP: 1.54626
+
+Country: Ireland  Rank: 15  Score: 6.977  GDP: 1.53571
+
+Country: Germany  Rank: 16  Score: 6.951  GDP: 1.48792
+
+Country: Belgium  Rank: 17  Score: 6.891  GDP: 1.46378
+
+Country: Luxembourg  Rank: 18  Score: 6.863  GDP: 1.74194
+
+Country: United Kingdom  Rank: 19  Score: 6.714  GDP: 1.44163
+
+Country: Chile  Rank: 20  Score: 6.652  GDP: 1.25278
+
+Country: United Arab Emirates  Rank: 21  Score: 6.648  GDP: 1.62634
+
+Country: Brazil  Rank: 22  Score: 6.635  GDP: 1.10735
+
+Country: Czech Republic  Rank: 23  Score: 6.609  GDP: 1.35268
+
+Country: Argentina  Rank: 24  Score: 6.599  GDP: 1.1853
+
+Country: Mexico  Rank: 25  Score: 6.578  GDP: 1.15318
+
+Country: Singapore  Rank: 26  Score: 6.572  GDP: 1.69228
+
+Country: Malta  Rank: 27  Score: 6.527  GDP: 1.34328
+
+Country: Uruguay  Rank: 28  Score: 6.454  GDP: 1.21756
+
+Country: Guatemala  Rank: 29  Score: 6.454  GDP: 0.872002
+
+Country: Panama  Rank: 30  Score: 6.452  GDP: 1.23375
+
+Country: France  Rank: 31  Score: 6.442  GDP: 1.43092
+
+Country: Thailand  Rank: 32  Score: 6.424  GDP: 1.12787
+
+Country: Taiwan Province of China  Rank: 33  Score: 6.422  GDP: 1.43363
+
+Country: Spain  Rank: 34  Score: 6.403  GDP: 1.3844
+
+Country: Qatar  Rank: 35  Score: 6.375  GDP: 1.87077
+
+Country: Colombia  Rank: 36  Score: 6.357  GDP: 1.07062
+
+Country: Saudi Arabia  Rank: 37  Score: 6.344  GDP: 1.53062
+
+Country: Trinidad and Tobago  Rank: 38  Score: 6.168  GDP: 1.36136
+
+Country: Kuwait  Rank: 39  Score: 6.105  GDP: 1.63295
+
+Country: Slovakia  Rank: 40  Score: 6.098  GDP: 1.32539
+
+Country: Bahrain  Rank: 41  Score: 6.087  GDP: 1.48841
+
+Country: Malaysia  Rank: 42  Score: 6.084  GDP: 1.29122
+
+Country: Nicaragua  Rank: 43  Score: 6.071  GDP: 0.737299
+
+Country: Ecuador  Rank: 44  Score: 6.008  GDP: 1.00082
+
+Country: El Salvador  Rank: 45  Score: 6.003  GDP: 0.909784
+
+Country: Poland  Rank: 46  Score: 5.973  GDP: 1.29179
+
+Country: Uzbekistan  Rank: 47  Score: 5.971  GDP: 0.786441
+
+Country: Italy  Rank: 48  Score: 5.964  GDP: 1.39507
+
+Country: Russia  Rank: 49  Score: 5.963  GDP: 1.28178
+
+Country: Belize  Rank: 50  Score: 5.956  GDP: 0.907975
+
+Country: Japan  Rank: 51  Score: 5.92  GDP: 1.41692
+
+Country: Lithuania  Rank: 52  Score: 5.902  GDP: 1.31458
+
+Country: Algeria  Rank: 53  Score: 5.872  GDP: 1.09186
+
+Country: Latvia  Rank: 54  Score: 5.85  GDP: 1.26075
+
+Country: South Korea  Rank: 55  Score: 5.838  GDP: 1.40168
+
+Country: Moldova  Rank: 56  Score: 5.838  GDP: 0.728871
+
+Country: Romania  Rank: 57  Score: 5.825  GDP: 1.21768
+
+Country: Bolivia  Rank: 58  Score: 5.823  GDP: 0.833757
+
+Country: Turkmenistan  Rank: 59  Score: 5.822  GDP: 1.13078
+
+Country: Kazakhstan  Rank: 60  Score: 5.819  GDP: 1.28456
+
+Country: North Cyprus  Rank: 61  Score: 5.81  GDP: 1.34691
+
+Country: Slovenia  Rank: 62  Score: 5.758  GDP: 1.34121
+
+Country: Peru  Rank: 63  Score: 5.715  GDP: 1.03523
+
+Country: Mauritius  Rank: 64  Score: 5.629  GDP: 1.1894
+
+Country: Cyprus  Rank: 65  Score: 5.621  GDP: 1.35594
+
+Country: Estonia  Rank: 66  Score: 5.611  GDP: 1.32088
+
+Country: Belarus  Rank: 67  Score: 5.569  GDP: 1.15656
+
+Country: Libya  Rank: 68  Score: 5.525  GDP: 1.1018
+
+Country: Turkey  Rank: 69  Score: 5.5  GDP: 1.19827
+
+Country: Paraguay  Rank: 70  Score: 5.493  GDP: 0.932537
+
+Country: Hong Kong  Rank: 71  Score: 5.472  GDP: 1.55167
+
+Country: Philippines  Rank: 72  Score: 5.43  GDP: 0.857699
+
+Country: Serbia  Rank: 73  Score: 5.395  GDP: 1.06932
+
+Country: Jordan  Rank: 74  Score: 5.336  GDP: 0.991012
+
+Country: Hungary  Rank: 75  Score: 5.324  GDP: 1.28601
+
+Country: Jamaica  Rank: 76  Score: 5.311  GDP: 0.925579
+
+Country: Croatia  Rank: 77  Score: 5.293  GDP: 1.22256
+
+Country: Kosovo  Rank: 78  Score: 5.279  GDP: 0.951484
+
+Country: China  Rank: 79  Score: 5.273  GDP: 1.08117
+
+Country: Pakistan  Rank: 80  Score: 5.269  GDP: 0.726884
+
+Country: Indonesia  Rank: 81  Score: 5.262  GDP: 0.995539
+
+Country: Venezuela  Rank: 82  Score: 5.25  GDP: 1.12843
+
+Country: Montenegro  Rank: 83  Score: 5.237  GDP: 1.12113
+
+Country: Morocco  Rank: 84  Score: 5.235  GDP: 0.878115
+
+Country: Azerbaijan  Rank: 85  Score: 5.234  GDP: 1.1536
+
+Country: Dominican Republic  Rank: 86  Score: 5.23  GDP: 1.07937
+
+Country: Greece  Rank: 87  Score: 5.227  GDP: 1.28949
+
+Country: Lebanon  Rank: 88  Score: 5.225  GDP: 1.07499
+
+Country: Portugal  Rank: 89  Score: 5.195  GDP: 1.31518
+
+Country: Bosnia and Herzegovina  Rank: 90  Score: 5.182  GDP: 0.982409
+
+Country: Honduras  Rank: 91  Score: 5.181  GDP: 0.730573
+
+Country: Macedonia  Rank: 92  Score: 5.175  GDP: 1.06458
+
+Country: Somalia  Rank: 93  Score: 5.151  GDP: 0.0226432
+
+Country: Vietnam  Rank: 94  Score: 5.074  GDP: 0.788548
+
+Country: Nigeria  Rank: 95  Score: 5.074  GDP: 0.783756
+
+Country: Tajikistan  Rank: 96  Score: 5.041  GDP: 0.524714
+
+Country: Bhutan  Rank: 97  Score: 5.011  GDP: 0.885416
+
+Country: Kyrgyzstan  Rank: 98  Score: 5.004  GDP: 0.59622
+
+Country: Nepal  Rank: 99  Score: 4.962  GDP: 0.47982
+
+Country: Mongolia  Rank: 100  Score: 4.955  GDP: 1.02724
+
+Country: South Africa  Rank: 101  Score: 4.829  GDP: 1.0547
+
+Country: Tunisia  Rank: 102  Score: 4.805  GDP: 1.00727
+
+Country: Palestinian Territories  Rank: 103  Score: 4.775  GDP: 0.716249
+
+Country: Egypt  Rank: 104  Score: 4.735  GDP: 0.989702
+
+Country: Bulgaria  Rank: 105  Score: 4.714  GDP: 1.16146
+
+Country: Sierra Leone  Rank: 106  Score: 4.709  GDP: 0.368421
+
+Country: Cameroon  Rank: 107  Score: 4.695  GDP: 0.564305
+
+Country: Iran  Rank: 108  Score: 4.692  GDP: 1.15687
+
+Country: Albania  Rank: 109  Score: 4.644  GDP: 0.996193
+
+Country: Bangladesh  Rank: 110  Score: 4.608  GDP: 0.586683
+
+Country: Namibia  Rank: 111  Score: 4.574  GDP: 0.964434
+
+Country: Kenya  Rank: 112  Score: 4.553  GDP: 0.560479
+
+Country: Mozambique  Rank: 113  Score: 4.55  GDP: 0.234306
+
+Country: Myanmar  Rank: 114  Score: 4.545  GDP: 0.367111
+
+Country: Senegal  Rank: 115  Score: 4.535  GDP: 0.479309
+
+Country: Zambia  Rank: 116  Score: 4.514  GDP: 0.636407
+
+Country: Iraq  Rank: 117  Score: 4.497  GDP: 1.10271
+
+Country: Gabon  Rank: 118  Score: 4.465  GDP: 1.19821
+
+Country: Ethiopia  Rank: 119  Score: 4.46  GDP: 0.339234
+
+Country: Sri Lanka  Rank: 120  Score: 4.44  GDP: 1.00985
+
+Country: Armenia  Rank: 121  Score: 4.376  GDP: 0.900597
+
+Country: India  Rank: 122  Score: 4.315  GDP: 0.792221
+
+Country: Mauritania  Rank: 123  Score: 4.292  GDP: 0.648457
+
+Country: Congo Brazzaville  Rank: 124  Score: 4.291  GDP: 0.808964
+
+Country: Georgia  Rank: 125  Score: 4.286  GDP: 0.950613
+
+Country: Congo Kinshasa  Rank: 126  Score: 4.28  GDP: 0.0921023
+
+Country: Mali  Rank: 127  Score: 4.19  GDP: 0.47618
+
+Country: Ivory Coast  Rank: 128  Score: 4.18  GDP: 0.603049
+
+Country: Cambodia  Rank: 129  Score: 4.168  GDP: 0.601765
+
+Country: Sudan  Rank: 130  Score: 4.139  GDP: 0.659517
+
+Country: Ghana  Rank: 131  Score: 4.12  GDP: 0.667225
+
+Country: Ukraine  Rank: 132  Score: 4.096  GDP: 0.894652
+
+Country: Uganda  Rank: 133  Score: 4.081  GDP: 0.381431
+
+Country: Burkina Faso  Rank: 134  Score: 4.032  GDP: 0.350228
+
+Country: Niger  Rank: 135  Score: 4.028  GDP: 0.161925
+
+Country: Malawi  Rank: 136  Score: 3.97  GDP: 0.233442
+
+Country: Chad  Rank: 137  Score: 3.936  GDP: 0.438013
+
+Country: Zimbabwe  Rank: 138  Score: 3.875  GDP: 0.375847
+
+Country: Lesotho  Rank: 139  Score: 3.808  GDP: 0.521021
+
+Country: Angola  Rank: 140  Score: 3.795  GDP: 0.858428
+
+Country: Afghanistan  Rank: 141  Score: 3.794  GDP: 0.401477
+
+Country: Botswana  Rank: 142  Score: 3.766  GDP: 1.12209
+
+Country: Benin  Rank: 143  Score: 3.657  GDP: 0.431085
+
+Country: Madagascar  Rank: 144  Score: 3.644  GDP: 0.305809
+
+Country: Haiti  Rank: 145  Score: 3.603  GDP: 0.36861
+
+Country: Yemen  Rank: 146  Score: 3.593  GDP: 0.591683
+
+Country: South Sudan  Rank: 147  Score: 3.591  GDP: 0.397249
+
+Country: Liberia  Rank: 148  Score: 3.533  GDP: 0.119042
+
+Country: Guinea  Rank: 149  Score: 3.507  GDP: 0.24455
+
+Country: Togo  Rank: 150  Score: 3.495  GDP: 0.305445
+
+Country: Rwanda  Rank: 151  Score: 3.471  GDP: 0.368746
+
+Country: Syria  Rank: 152  Score: 3.462  GDP: 0.777153
+
+Country: Tanzania  Rank: 153  Score: 3.349  GDP: 0.511136
+
+Country: Burundi  Rank: 154  Score: 2.905  GDP: 0.0916226
+
+Country: Central African Republic  Rank: 155  Score: 2.693  GDP: 0
+
